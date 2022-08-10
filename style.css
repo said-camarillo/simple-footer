@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+body {background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 20px;
+  background: #202020;
+  box-shadow: 0 4px 25px -16px #42a2fd;
+  transition: 300ms;
+}
+
+footer:hover {
+  box-shadow: 0 4px 25px -12px #42a2fd;
+}
+
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-footer .about {
+  width: 350px;
+}
+
+.container-footer ul {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+}
+
+.redes span {
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.redes .fa-facebook-f {
+  background: #41579A;
+}
+.redes .fa-instagram {
+  background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+}
+.redes .fa-youtube {
+  background: #F70306;
+}
+.redes .fa-envelope {
+  background: #616EFE;
+}
+
+.redes span:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
+.about p {
+  color: #aaa;
+  margin-top: 12px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+ul li:hover a{
+  color: #5443A8;
+  transition: 300ms;
+}
+
+h3 {
+  color: #777777;
+  font-weight: 100;
+}
+
+a {
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  .container-footer .box {
+    margin-top: 20px;
+  }
+  
+  .container-footer ul {
+    margin: 5px;
+  }
+}
